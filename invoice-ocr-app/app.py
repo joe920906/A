@@ -6,7 +6,7 @@ import openpyxl
 
 # 載入 Google Vision API key json 路徑
 import os
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'path/to/your/google-credentials.json'
+os.environ['civil-dolphin-431423-s2'] = 'path/to/your/google-credentials.json'
 
 # 初始化 Google Vision 客戶端
 client = vision.ImageAnnotatorClient()
