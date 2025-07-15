@@ -18,7 +18,7 @@ uploaded_file = st.file_uploader("請選擇發票圖片 (JPG/PNG)", type=["jpg",
 
 if uploaded_file:
     image = Image.open(uploaded_file)
-    st.image(image, caption='上傳的發票', use_column_width=True)
+    st.image(image, caption='上傳的發票', use_container_width=True)
 
     # OCR 辨識
     with st.spinner("🔍 OCR 辨識中..."):
